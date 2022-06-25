@@ -1,0 +1,60 @@
+/* <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.card {
+  border-radius: 17px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  text-align: center;
+  margin: 1em;
+}
+
+.qr-code-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 22px 10px;
+}
+
+.card-body h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 17px;
+}
+
+.qr-text {
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(220, 15%, 55%);
+}
+
+a:hover {
+  color: rgb(41, 41, 192);
+}
